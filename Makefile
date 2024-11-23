@@ -11,5 +11,5 @@ calculate.o: calculate.c calculate.h
 main.o: main.c calculate.h
 	gcc -g -c main.c $(CFLAGS)
 clean:
-	-rm calcul *.o *~
+	-rm f calcul *.o *~
 
